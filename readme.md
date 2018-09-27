@@ -15,7 +15,7 @@ docker run -it --privileged \
  -e DISPLAY=:0 \
  -p 14556:14556/udp \
  -p 8080:8080 \
- dronekit-sim bash
+ evans000/uav-sitl bash
 ```
 
 ### Spawn a new Docker Container
